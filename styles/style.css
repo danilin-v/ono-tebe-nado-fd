@@ -244,7 +244,7 @@
 .about_title {
   margin-top: 102px;
   margin-bottom: 100px;
-  margin-left: 20px;
+  margin-left: 18px;
   font-weight: 700;
   font-size: 40px;
   line-height: normal;
@@ -252,10 +252,12 @@
 }
 
 .about_text {
-  margin-left: 20px;
+  margin-left: 18px;
   font-weight: 400;
   font-size: 20px;
   line-height: normal;
+  width: 693px;
+  height: 144px;
 }
 
 .footer {
