@@ -1,10 +1,3 @@
-/* Не знаю почему в рекомендациях написано использовать grid. Я использовал flex 
-в хедере и на всякий случай в футере, чтобы показать, что я могу) Если я не прав, прошу объяснить почему
-я не могу использовать flex. Сложность возникла с помещением слов на обложку "ОНО ТЕБЕ НАДО" не уверен,
-что сделал правильно, задал очень много значений, подгонял это все под макет, как будто получилось криво.
-Возможно есть более простой и поянтный способ это сверстать, может через grid. 
-Хотел бы получить более подробную обратную связь по этому моменту */
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -41,7 +34,7 @@
   margin-right: 150px;
 }
 
-.contacts {
+.adress {
   margin-right: 36px;
   font-weight: 400;
   font-size: 18px;
@@ -133,7 +126,7 @@
 .button {
   width: 256px;
   height: 51px;
-  border: 1px solid white;
+  border: 1px currentColor;
   color: #fff;
   font-weight: 500;
   font-size: 22px;
@@ -198,20 +191,14 @@
   color: #fff;
 }
 
-.card_film,
-.card_book,
-.card_picture {
-  background-color: #a7a7a7;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 .card_cinema {
   background-image: url(./../images/card-lot-01.jpg);
 }
+
 .card_book {
   background-image: url(./../images/card-lot-02.jpg);
 }
+
 .card_picture {
   background-image: url(./../images/card-lot-03.jpg);
 }
@@ -279,7 +266,7 @@
   align-items: flex-start;
 }
 
-.footer_contacts {
+.footer_adress {
   font-style: normal;
   padding-left: 0px;
 }
