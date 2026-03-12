@@ -31,17 +31,17 @@
 .logo {
   width: 148px;
   height: 105px;
-  margin-right: 150px;
+  margin-right: 146px;
 }
 
-.adress {
+.address {
   margin-right: 36px;
   font-weight: 400;
   font-size: 18px;
-  font-style: regular;
+  font-style: inherit;
   line-height: 24px;
   list-style-type: none;
-  text-underline-offset: 4px; 
+  text-underline-offset: 4px;  
 }
 
 .cover {
@@ -268,7 +268,7 @@
   align-items: flex-start;
 }
 
-.footer_adress {
+.footer_address {
   font-style: normal;
   padding-left: 0px;
 }
